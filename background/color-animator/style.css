@@ -1,0 +1,30 @@
+body{
+    background: #853a3d;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200PX;
+    height: 200px;
+    border-radius: 50%;
+    animation: animate 2s infinite alternate linear;
+}
+@keyframes animate {
+    0%{
+        background: #1C2C2C;
+    }
+    25%{
+        background: #AAC6C6;
+    }
+    50%{
+        background: #54E6E7;
+    }
+    75%{
+        background: #46B2B3;
+    }
+    100%{
+        background: #4F9899;
+    }
+}
