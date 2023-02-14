@@ -1,0 +1,11 @@
+.header h1{
+    font-size: 80px;
+    font-weight: 800;
+    background-image: url(https://blog.logrocket.com/wp-content/uploads/2022/03/demo-background-image.png);
+    background-size: 250px;
+    background-repeat: repeat;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-transform: uppercase;
+}
