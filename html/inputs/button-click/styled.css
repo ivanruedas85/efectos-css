@@ -1,0 +1,22 @@
+body{
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    appearance: none;
+    padding: 9px 25px;
+    background-color: #fff;
+}
+input::before{
+    content: "Open";
+}
+input:checked::before{
+    content: "Close";
+}
