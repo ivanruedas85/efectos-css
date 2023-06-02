@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../../../css/button.css" />
+  </head>
+  <body>
+    <div class="login_container">
+      <form action="" class="form_login">
+        <ul class="login_nav">
+          <li class="login_nav__item active">
+            <a href="">Sign in</a>
+          </li>
+          <li class="login_nav__item">
+            <a href="">Sign up</a>
+          </li>
+        </ul>
+        <label for="login_input_user" class="login_label"> Username </label>
+        <input type="text" id="login_input_user" class="login_input" />
+        <label for="login_input_password" class="login_label"> Password </label>
+        <input type="password" id="login_input_password" class="login_input" />
+        <label for="login_sign_up" class="login_label--checkbox">
+          <input
+            type="checkbox"
+            id="login_sign_up"
+            class="login_input--checkbox"
+          />
+          Keep me signed in
+        </label>
+        <button class="login_submit" disabled>Sign in</button>
+      </form>
+      <a href="#" class="login_forgot">Forgot Password</a>
+    </div>
+    <a href="../formularios.html" class="btn">
+      <span>Back</span>
+    </a>
+  </body>
+</html>

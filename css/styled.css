@@ -99,6 +99,9 @@ body {
 .c-hero-flex__item:nth-child(13) {
   background: #222 url();
 }
+.c-hero-flex__item:nth-child(14) {
+  background: #222 url();
+}
 .c-hero-flex__title {
   text-transform: uppercase;
   letter-spacing: 0.075em;
