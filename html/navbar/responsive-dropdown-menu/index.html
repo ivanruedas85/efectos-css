@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Response dropdown menú</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav_data">
+          <a href="#" class="nav_logo">
+            <i class="ri-planet-line"></i>
+            Company
+          </a>
+
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="ri-menu-line nav_burguer"></i>
+            <i class="ri-close-line nav_close"></i>
+          </div>
+        </div>
+
+        <!--NAV MENU-->
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li>
+              <a href="" class="nav_link">Home</a>
+            </li>
+            <li>
+              <a href="" class="nav_link">Company</a>
+            </li>
+            <!--DROPDOWN 1-->
+            <li class="dropdown_item">
+              <div class="nav_link">
+                Analytics <i class="ri-arrow-down-s-line dropdown_arrow"></i>
+              </div>
+
+              <ul class="dropdown_menu">
+                <li>
+                  <a href="" class="dropdown_link">
+                    <i class="ri-pie-chart-line"></i> Overview
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="dropdown_link">
+                    <i class="ri-arrow-up-down-line"></i> Transactions
+                  </a>
+                </li>
+                <!--DROPDOWN SUB-MENU-->
+                <li class="dropdown_subitem">
+                  <div class="dropdown_link">
+                    <i class="ri-bar-chart-line"></i> Reports
+                    <i class="ri-add-line dropdown_add"></i>
+                  </div>
+
+                  <ul class="dropdown_submenu">
+                    <li>
+                      <a href="#" class="dropdown_sublink">
+                        <i class="ri-file-list-line"></i> Documents
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown_sublink">
+                        <i class="ri-cash-line"></i> Payments
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown_sublink">
+                        <i class="ri-refund-2-line"></i> Refounds
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="" class="nav_link">Products</a>
+            </li>
+            <!--DROPDOWN 2-->
+            <li class="dropdown_item">
+              <div class="nav_link">
+                Users <i class="ri-arrow-down-s-line dropdown_arrow"></i>
+              </div>
+
+              <ul class="dropdown_menu">
+                <li>
+                  <a href="" class="dropdown_link">
+                    <i class="ri-user-line"></i> Profiles
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="dropdown_link">
+                    <i class="ri-lock-line"></i> Accounts
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="dropdown_link">
+                    <i class="ri-message-3-line"></i> Messages
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="" class="nav_link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
